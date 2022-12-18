@@ -1,0 +1,217 @@
+.main-banner {
+   display: flex;
+   justify-content: center;
+   margin-top: 50px;
+   margin-bottom: 20px;
+
+
+}
+
+.main-banner>img {
+   width: 80%;
+   height: 80%;
+
+}
+
+.heading {
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom: 20px;
+   border: 1px solid gray;
+   color: gray;
+   font-size: 25px;
+}
+
+.main-content {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+}
+
+.categories {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+
+.blog-post {
+   display: flex;
+   
+}
+
+.blog-card {
+   height: auto;
+   border: 0px;
+   box-shadow: 0px 1px 10px 0px rgb(224 224 224 / 75%) !important;
+   color: gray;
+   text-align: center;
+   font-size: 20px;
+  
+}
+.blog-card .blog-p{
+   color: black;
+   padding: 10px;
+   
+
+}
+
+.mr-10{
+   margin-right: 35px;
+}
+
+
+.blog-card > img {
+   width: 100%;
+   border-radius: 2px;
+}
+
+.our-products {
+   display: flex;
+
+}
+
+.our-product-post {
+   text-align: center;
+   padding: 10px;
+   color: gray;
+   margin-bottom: 20px;
+   font-size: 20px;
+
+
+}
+.our-product-post .btn{
+   width: 200px;
+   height: 30px;
+   margin-top: 10px;
+   background-color: pink;
+   color: gray;
+   border: none;
+
+}
+.our-product-post .btn:hover{
+   background-color: #333;
+   
+}
+.our-product-post>img {
+   padding: 0;
+   width: 100%;
+
+
+}
+
+
+.stay-in-touch {
+   background-color: gray;
+   height: 300px;
+   display: flex;
+   justify-content: center;
+
+}
+
+.form {
+   background-color: brown;
+   width: 500px;
+   text-align: center;
+
+}
+
+.form h1 {
+   color: white;
+   margin-top: 10px;
+}
+
+.form p {
+   color: white;
+   text-align: center;
+   margin: 10px;
+}
+
+#yname {
+   width: 300px;
+   height: 20px;
+   margin-bottom: 2px;
+
+}
+
+#yemail {
+   width: 300px;
+   height: 20px;
+}
+
+.checkbox input {
+   width: 20px;
+   height: 20px;
+
+}
+
+.checkbox label {
+   font-size: 20px;
+}
+
+.checkbox {
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+#button {
+   width: 300px;
+   height: 30px;
+   border-radius: 10px solid blue;
+   background-color: blueviolet;
+   font-weight: bold;
+   border: 0;
+}
+
+.say-about-us h1 {
+   font-size: 40px;
+   font-weight: bold;
+   color: brown;
+   text-align: center;
+   margin-bottom: 20px;
+   margin-top: 20px;
+
+}
+
+.about-us {
+   background-color: lightgray;
+   height: 200px;
+   text-align: center;
+     margin-bottom: 50px;
+     margin-top: 20px;
+}
+
+.about-us>p {
+   padding: 30px;
+   font-size: 20px;
+
+}
+
+.about-us>div {
+   font-size: 20px;
+}
+
+
+.about-head {
+   font-size: 40px;
+   font-weight: bold;
+   color: brown;
+   text-align: center;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+.about-p{
+   display: flex;
+
+}
+.about-p .para1{
+   width: 40%;
+
+}
+.about-p .para2{
+   width: 60%;
+   font-size: 20px;
+   color: gray;
+   margin-bottom: 20px;
+   line-height: 30px;
+}

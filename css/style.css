@@ -1,0 +1,124 @@
+
+*{
+    margin: 0;
+}
+.top-navbar{
+    display: flex;
+    padding: 20px;
+    margin-left: 40px;
+    
+}
+.top-navbar a{
+    text-decoration: none;
+    color: black;
+
+}
+.active a{
+    color: red;
+}
+li a:hover{
+    color: red;
+}
+
+.email{
+   margin-left: 40px; 
+
+}
+
+    .dropdown {
+        position: relative;
+      }     
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        
+        background: white;
+    
+      }
+      .dropdown-content a{
+        color: #333;
+        display: block;
+        
+      }
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+
+.nav-list{
+    display: flex;
+    list-style-type: none;
+    background-color: black;
+    padding: 40px;
+}
+li a{
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+    padding: 20px;
+}
+
+
+.card{
+    width: 300px;
+    height: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid gray;
+
+
+ }
+ .card a img:hover{
+    transform: rotate(10deg) scale(1.2);   
+    
+ }
+ .card img{
+       padding: 15px;
+       transition: 0.4s;
+       
+
+ }
+ .card-heading{
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+    color: brown;
+ }
+ .card-subtitle{
+    font-size: 20px;
+    padding: 15px;
+    color: gray;
+ }
+ .wrapper{
+    width: 80%;
+    margin: auto;
+ }
+ 
+.footer{
+    margin-top: 100px;
+}
+.main-footer{
+    display: flex;
+    flex-direction: column;
+   
+}
+.top-footer{
+    height: 250px;
+    background-color: #333;
+}
+.bottom-footer{
+    height: 50px;
+    background-color: grey;
+
+}
+.bottom-footer .copyright{
+    display: flex;
+    align-items: center;
+}
+
+.bottom-footer .design{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
