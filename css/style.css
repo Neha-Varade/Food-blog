@@ -1,124 +1,180 @@
-
-*{
-    margin: 0;
-}
-.top-navbar{
-    display: flex;
-    padding: 20px;
-    margin-left: 40px;
-    
-}
-.top-navbar a{
-    text-decoration: none;
-    color: black;
-
-}
-.active a{
-    color: red;
-}
-li a:hover{
-    color: red;
+* {
+  margin: 0;
 }
 
-.email{
-   margin-left: 40px; 
+.top-navbar {
+  display: flex;
+  padding: 20px;
+  margin-left: 40px;
 
 }
 
-    .dropdown {
-        position: relative;
-      }     
-
-      .dropdown-content {
-        display: none;
-        position: absolute;
-        
-        background: white;
-    
-      }
-      .dropdown-content a{
-        color: #333;
-        display: block;
-        
-      }
-      .dropdown:hover .dropdown-content {
-        display: block;
-      }
-
-.nav-list{
-    display: flex;
-    list-style-type: none;
-    background-color: black;
-    padding: 40px;
-}
-li a{
-    text-decoration: none;
-    margin: 10px;
-    color: white;
-    padding: 20px;
-}
-
-
-.card{
-    width: 300px;
-    height: 400px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border: 2px solid gray;
-
-
- }
- .card a img:hover{
-    transform: rotate(10deg) scale(1.2);   
-    
- }
- .card img{
-       padding: 15px;
-       transition: 0.4s;
-       
-
- }
- .card-heading{
-    font-size: 36px;
-    font-weight: bold;
-    text-align: center;
-    padding: 15px;
-    color: brown;
- }
- .card-subtitle{
-    font-size: 20px;
-    padding: 15px;
-    color: gray;
- }
- .wrapper{
-    width: 80%;
-    margin: auto;
- }
- 
-.footer{
-    margin-top: 100px;
-}
-.main-footer{
-    display: flex;
-    flex-direction: column;
-   
-}
-.top-footer{
-    height: 250px;
-    background-color: #333;
-}
-.bottom-footer{
-    height: 50px;
-    background-color: grey;
+.top-navbar a {
+  text-decoration: none;
+  color: black;
 
 }
-.bottom-footer .copyright{
-    display: flex;
-    align-items: center;
+
+.active {
+  color: red !important;
 }
 
-.bottom-footer .design{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.btn-box button{
+  background-color: red;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+}
+.btn-box button a{
+  text-decoration: none;
+  color: white;
+}
+.btn-box button:hover{
+  background-color: skyblue;
+  
+  
+}
+.btn-box button:hover a{
+  color: black;
+  
+}
+.navbar .navbar-item ul a:hover {
+  color: red;
+
+}
+
+.email {
+  margin-left: 40px;
+
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+
+  background: rgb(167, 17, 17);
+
+}
+
+.dropdown-content a {
+  color: rgb(180, 78, 78);
+  display: block;
+
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.container1 {
+  width: 98%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.navbar {
+  background-color: black;
+  padding: 20px;
+}
+
+.navbar .navbar-item ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  display: flex;
+
+}
+
+.navbar .navbar-item ul li {
+  padding: 20px 10px;
+}
+
+.navbar .navbar-item ul a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar .navbar-item ul li a {
+  padding: 20px;
+}
+
+.card {
+  width: 300px;
+  height: 400px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 2px solid gray;
+
+
+}
+
+.card a img:hover {
+  transform: rotate(10deg) scale(1.2);
+
+}
+
+.card img {
+  padding: 15px;
+  transition: 0.4s;
+
+
+}
+
+.card-heading {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  padding: 15px;
+  color: brown;
+}
+
+.card-subtitle {
+  font-size: 20px;
+  padding: 15px;
+  color: gray;
+}
+
+.wrapper {
+  width: 80%;
+  margin: auto;
+}
+
+.footer {
+  margin-top: 100px;
+}
+
+.main-footer {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.top-footer {
+  height: 250px;
+  background-color: #333;
+}
+
+.bottom-footer {
+  height: 50px;
+  background-color: grey;
+
+}
+
+.bottom-footer .copyright {
+  display: flex;
+  align-items: center;
+}
+
+.bottom-footer .design {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

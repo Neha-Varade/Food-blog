@@ -1,0 +1,83 @@
+.login-form{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    
+}
+.my-form{
+    width: 60%;
+    padding: 50px;
+    background-color: rgb(202, 177, 177);
+}
+.my-form h1{
+    margin-bottom: 10px;
+}
+.form-label{
+    color: rgb(67, 42, 42);
+    padding: 5px ;
+    margin-top: 5px;
+
+}
+
+.form-label .psw{
+    padding-left: 230px;
+}
+.form-input{
+    border-radius: 5px;
+    padding: 3px;
+    
+}
+.form-input #uname{
+       padding: 10px;
+       width: 30%;
+}
+.form-input #psw{
+    padding: 10px;
+    width: 30%;
+    
+}
+.checkbox{
+    padding: 10px 0px;
+}
+.checkbox label{
+    color: rgb(67, 42, 42);
+   
+  
+}
+.login-btn button{
+    background-color: red;
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+.login-btn button:hover{
+    background-color: skyblue;
+    color: black !important;
+}
+.form-wrap{
+    display: flex;
+}
+
+.form-wrap .inner {
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+    width: 100%;
+}
+.form-wrap .inner {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-wrap .inner  input {
+    padding: 10px;
+}
+
+.form-wrap .inner label {
+    color: rgb(67, 42, 42);
+    padding: 5px ;
+    margin-top: 5px;
+}
